@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/smateus12/Documents/COP_repository/lab_assignment_9/hash'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0x0, symBinAddr: 0x100003874, symSize: 0x28 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0x0, symBinAddr: 0x100003874, symSize: 0x28 }
+  - { offsetInCU: 0xD7, offset: 0xD7, size: 0x8, addend: 0x0, symName: _parseData, symObjAddr: 0x28, symBinAddr: 0x10000389C, symSize: 0x190 }
+  - { offsetInCU: 0x161, offset: 0x161, size: 0x8, addend: 0x0, symName: _printRecords, symObjAddr: 0x1B8, symBinAddr: 0x100003A2C, symSize: 0xD0 }
+  - { offsetInCU: 0x1A1, offset: 0x1A1, size: 0x8, addend: 0x0, symName: _displayRecordsInHash, symObjAddr: 0x288, symBinAddr: 0x100003AFC, symSize: 0xFC }
+  - { offsetInCU: 0x1FD, offset: 0x1FD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x384, symBinAddr: 0x100003BF8, symSize: 0x2D0 }
+...
